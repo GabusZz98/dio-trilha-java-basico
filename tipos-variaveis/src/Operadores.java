@@ -1,9 +1,22 @@
+import java.util.Scanner;
+
 public class Operadores {
     
     public static void main(String[] args) {
-        String nomeCompleto = "LINGUAGEM " + "JAVA";
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println(nomeCompleto);
+        int a, b, X;
+
+        a = scanner.nextInt();
+        b = scanner.nextInt();
+
+        X = a + b;
+
+        System.out.println("X = " + X);
+
+        scanner.close();
+
+        
 
     }
 }
