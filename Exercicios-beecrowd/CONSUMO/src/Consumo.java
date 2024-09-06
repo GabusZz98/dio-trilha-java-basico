@@ -9,7 +9,7 @@ public class Consumo {
 
         double consumo = distancia / combustivel;
 
-        System.out.printf("%.3f km/l", consumo);
+        System.out.printf("%.3f km/l%n", consumo);
 
         scanner.close();
 
